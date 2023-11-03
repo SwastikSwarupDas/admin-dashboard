@@ -1,0 +1,127 @@
+.example-container {
+    width: 100vw;
+    height: 100vh;
+    border: none
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-sidenav {
+    width: 17vw;
+    background-color: #222E3C;
+    padding: 20px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  color: white;
+  font-weight: 800;
+}
+
+.dashcontent{
+  height: 100vh;
+  background: rgb(245, 247, 251);
+}
+
+.navbar{
+  background:#fff;
+  padding: 0.8vw;
+  box-shadow: 0px 16px 18px -6px rgba(84, 84, 84, 0.1);
+}
+
+.tg-btn{
+  color: rgb(70,70,70);
+  font-weight: 600;
+  font-size: 2vw;
+}
+
+.title{
+  font-size: 1.4vw;
+}
+
+.pages{
+  display: flex;
+  flex-direction: column;
+  gap: 1.4vw;
+  font-size: 0.8vw;
+  font-weight: 300;
+}
+
+.list{
+  color: rgb(129, 134, 150);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2vw;
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.list li{
+  display: flex;
+  gap: 1vw;
+}
+
+.top-row{
+  display: flex;
+  align-items: center;
+  padding: 3vw 3vw;
+  gap: 0.8vw;
+  font-size: 1.4vw;
+
+  p{
+    font-weight: 700;
+  }
+}
+
+.left-cards{
+  padding: 0vw 3vw;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+.card-title-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title{
+  font-weight: 800;
+  color: rgb(80,80,80);
+}
+
+.card-logo{
+  background-color: #D3E2F7;
+  font-size: 1.6vw;
+  color: #3B7DDD;
+  font-weight: 100;
+  padding: 0.2vw 0.7vw;
+  border-radius: 10vw;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 13vw;
+  padding: 2vw;
+  border-radius: 0.8vw;
+  background-color: #fff;
+  box-shadow: 0px 16px 18px -6px rgba(84, 84, 84, 0.1);
+}
+
+.card-info {
+  font-size: 0.9vw;
+  color: rgb(80,80,80);
+}
+
+.card-number{
+  font-size: 2vw;
+}
